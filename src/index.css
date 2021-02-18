@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Roboto+Slab:wght@200&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", "Arial Narrow", Arial, sans-serif;
+}
+.active-Class{
+  color: coral;
+  border-bottom: 1px solid;
+}
+.button{
+  display: inline;
+}
+.main_div {
+  width: 100%;
+  height: 100%;
+  background: #8566aa ;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.center_div {
+  width: 100%;
+  margin-top: 2%;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+input {
+  text-align: center;
+  height: 20px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 20%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+  margin: 1%;
+  display: inline;
+}
+h1 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 50px;
+  margin-bottom: 30px;
+  min-width: 64px;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+ol{
+  margin-top: 30px;
+}
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+}
+.todoStyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.todoStyle span{
+  color: darkorchid ;
+  text-decoration: underline;
+}
+.todoStyle span:hover{
+  color: darkmagenta;
+  cursor: pointer;
+}
+.todoStyle .faTimes{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0px 15px 0px 35px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3)  ;
+}
+.todoStyle .faTimes:hover{
+  background-color: crimson;
+}
+.todoStyle .faTimes:hover .listStyle{
+  color: crimson;
+}
+
+
+@media (max-width: 768px) {
+  .center_div {
+    width: 100%;
+  }
+}
